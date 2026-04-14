@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин компьютеров</title>
+    <style>
+        body { font-family: Arial; margin: 0; padding: 0; background: #f0f0f0; }
+        nav { background: #2c3e50; padding: 15px; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; }
+        header { background: #34495e; color: white; padding: 30px; text-align: center; margin-top: 0; }
+        .container { display: flex; max-width: 1200px; margin: 20px auto; gap: 20px; padding: 0 20px; }
+        aside { background: white; padding: 15px; width: 200px; border-radius: 8px; }
+        main { background: white; padding: 20px; flex: 1; border-radius: 8px; }
+        .products { display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; }
+        .card { border: 1px solid #ddd; padding: 15px; text-align: center; border-radius: 8px; }
+        .card img { max-width: 100%; height: 120px; background: #ddd; }
+        .price { color: #e74c3c; font-weight: bold; font-size: 18px; }
+        button { background: #3498db; color: white; border: none; padding: 10px; width: 100%; border-radius: 5px; cursor: pointer; }
+        footer { background: #2c3e50; color: white; text-align: center; padding: 20px; margin-top: 30px; }
+        @media (max-width: 700px) { .container { flex-direction: column; } aside { width: auto; } .products { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Главная</a>
+    <a href="catalog.html">Каталог</a>
+    <a href="about.html">О нас</a>
+</nav>
+
+<header>
+    <h1>💻 CyberPC — магазин техники</h1>
+    <p>Компьютеры, ноутбуки и комплектующие</p>
+</header>
+
+<div class="container">
+    <aside>
+        <h3>🔥 Популярное</h3>
+        <ul>
+            <li>Игровой ПК</li>
+            <li>Ноутбук</li>
+            <li>Видеокарта</li>
+        </ul>
+        <h3>📢 Акции</h3>
+        <p>Скидка 10% на первый заказ!</p>
+    </aside>
+
+    <main>
+        <h2>🆕 О нас</h2>
+        <div class="products">
+            
+                <p class="price">Компьютерный Супермаркет работает на российском рынке с 1991 года. Компания специализируется на оптовой и розничной продаже комплектующих, периферии, оргтехники, сетевого оборудования, расходных материалов, а также на поставке компьютеров под собственной торговой маркой.
+</p>
+<p>
+Слагаемыми успеха компании являются
+
+широкий ассортимент - прайс-лист содержит 160181 наименование товаров, из них 1939 моделей компьютеров.В киоске (ларьке): 181 наименование, включая последние новинки компьютерного рынка;
+гибкая маркетинговая политика, система скидок, программы поддержки дилеров;
+наличие склада в Москве - все товары, перечисленные в прайсе, имеются на складе;
+грамотный подбор персонала и постоянное повышение его квалификации - уровень знаний всех сотрудников фирмы периодически подвергается проверке;
+информационная поддержка клиентов - на нашем сайте Вы сможете найти самый полный русскоязычный каталог компьютерного оборудования, содержащий фотографии и описания товаров.
+</p>
+<p>
+По адресу Москва, Звездный б-р, д.19 к Вашим услугам просторный демонстрационный зал, отделы оптовой и розничной торговли, современный склад, отдел сборки компьютеров на заказ, сертифицированный в соответствии со стандартом ISO 9002, сервисный центр. В 2024-м году наша компания получила лицензию ФСБ на "Деятельность по разработке, производству, распространению шифровальных (криптографических) средств, информационных систем и телекоммуникационных систем, защищенных с использованием шифровальных (криптографических) средств". У нас Вы сможете заказать уникальную конфигурацию компьютера, получить квалифицированную консультацию, оформить заказ на крупную партию оборудования.
+
+Территориально деятельность компании не ограничивается Москвой: в настоящее время наши дилеры работают во многих городах России, и мы продолжаем активный поиск новых партнеров.
+
+
+</p>
+                       </div>
+    </main>
+</div>
+
+<footer>
+    <p>© 2026 Магазин компьютеров. Все права защищены.</p>
+</footer>
+
+</body>
+</html>
